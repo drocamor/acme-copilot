@@ -1,0 +1,5 @@
+acme-copilot is a poorly named program that exposes some acme commands through a basic REPL. I wrote this because I like using acme, but can't do the mouse clicking and chording it requires while I am traveling and using my laptop's trackpad.
+
+When you run the program, you get a prompt. You can type ls to list the windows open in acme. Use cd to switch to one of those windows. From there you can use ctl to write messages to the windows ctl file (the most common one I use is ctl put). You may also use addr to set the address of a window.
+
+I'd like for this to be able to support more things, so that you could use acme without a mouse, but I am not sure that is possible. I also think this project needs a better name and a smoother ux.
